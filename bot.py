@@ -1,3 +1,5 @@
+#!/zfkk_bot python3
+
 import telebot
 import requests
 import telegram
