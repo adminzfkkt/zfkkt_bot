@@ -1,4 +1,3 @@
-#!/zfkkt_bot python3
 
 import telebot
 import requests
