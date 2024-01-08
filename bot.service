@@ -1,13 +1,14 @@
 [Unit]
 Description=tg-bot
 After=multi-user.target
+StartLimitIntervalSec=0
 
 [Service]
 User=root
 Group=root
 Type=simple
 Restart=always
-ExecStart=/zfkkt_bot/bot.py
+ExecStart=/usr/bin/python3 /zfkkt_bot/bot.py
 
 [Install]
 WantedBy=multi-user.target
