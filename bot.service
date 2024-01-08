@@ -6,6 +6,7 @@ StartLimitIntervalSec=0
 [Service]
 User=root
 Group=root
+RestartSec=1
 Type=simple
 Restart=always
 ExecStart=/usr/bin/python3 /zfkkt_bot/bot.py
