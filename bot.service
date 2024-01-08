@@ -9,7 +9,7 @@ Group=root
 RestartSec=1
 Type=simple
 Restart=always
-ExecStart=/usr/bin/python3.10 /zfkkt_bot/bot.py
+ExecStart=/zfkkt_bot/bot.py
 
 [Install]
 WantedBy=multi-user.target
